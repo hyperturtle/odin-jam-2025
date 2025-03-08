@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="main_desktop" type="OdinRunConfiguration" factoryName="OdinRunConfiguration">
+    <option name="compilerOptions" />
+    <option name="outputPath" value="build/desktop/game_desktop.exe" />
+    <option name="programArguments" />
+    <option name="projectDirectoryPath" value="$PROJECT_DIR$/source/main_desktop" />
+    <option name="workingDirectory" value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>
