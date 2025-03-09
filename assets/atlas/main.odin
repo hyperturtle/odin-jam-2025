@@ -43,8 +43,8 @@ final_data: [4 * SIZE * SIZE]u8
 default_context: runtime.Context
 main :: proc() {
 	default_context = context
-	load(#load("../on.ase"), {0.5, 1}, "on")
-	load(#load("../off.ase"), {0.5, 1}, "off")
+	load(#load("../holder.ase"), {0.5, 1}, "holder")
+	load(#load("../icons.ase"), {0.5, 1}, "icons")
 
 	rc: rect_pack.Context
 	rc_nodes: [SIZE]rect_pack.Node
@@ -94,7 +94,7 @@ sprite :: struct {
 	left:  f32,
 	top:   f32,
 	src_w: f32,
-	src_h: f32
+	src_h: f32,
 }
 	`,
 	)
